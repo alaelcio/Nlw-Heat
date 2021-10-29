@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+html,
+body{
+
+ --brack: hsl(240,6%, 13%);
+ --gray: hsl(240,9%,89%);
+
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothion: antialiased;
+    background-color: #121214;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+main{
+    background: url(./images/background.svg);
+    width: 375px;
+    height: 812px;
+    
+
+
+}
+
+.container{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+
+    color: var (--gray);
+}
+
+.avatar{
+    width: 10rem;
+    margin: 11.5rem auto 0;
+    position: relative;
+    
+    
+}
+
+.avatar span{
+    position: absolute;  
+    top: -15px;  
+    
+}
+
+.avatar >img{
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    
+    
+    clip-path: polygon(49% 0, 99% 31%, 97% 68%, 46% 99%, 0 66%, 0 29%);
+
+
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--gray);
+
+    margin-top: 1.5rem;
+}
+
+a{
+    color: var(--gray);
+    text-decoration: none;
+
+    margin-top: 0.25rem;
+}
+p{
+    margin-top: 2rem;
+
+    color:  var(--gray);
+}
+
+ul{
+    margin-top: 4rem;
+
+    list-style: none;
+    padding: 0;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
